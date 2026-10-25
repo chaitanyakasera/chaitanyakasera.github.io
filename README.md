@@ -17,15 +17,15 @@ To show a photo, add `public/profile.jpg` (square image works best) — initials
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repo (e.g. `portfolio`) and push this folder to its `main` branch:
+1. Push this folder to the `main` branch of `chaitanyakasera.github.io`:
    ```bash
    git init
    git add .
    git commit -m "Initial portfolio"
    git branch -M main
-   git remote add origin https://github.com/chaitanyakasera/portfolio.git
+   git remote add origin https://github.com/chaitanyakasera/chaitanyakasera.github.io.git
    git push -u origin main
    ```
 2. On GitHub: **Settings → Pages → Source: GitHub Actions**.
 3. The included workflow (`.github/workflows/deploy.yml`) builds and publishes on every push.
-   The site will be live at `https://chaitanyakasera.github.io/portfolio/`.
+   The site will be live at `https://chaitanyakasera.github.io/`.
