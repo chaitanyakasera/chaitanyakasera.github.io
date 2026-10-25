@@ -9,13 +9,13 @@ export const profile = {
   // Drop a photo at public/profile.jpg — initials are shown until then.
   photo: 'profile.jpg',
   summary:
-    'Detail-oriented Android developer with 6+ years of experience building native apps in Java and Kotlin, from IoT libraries and live-streaming fitness apps to ride-hailing and kids’ education platforms. I enjoy clean architecture (MVVM, SOLID), modern Android with Jetpack Compose and Coroutines, and leading small teams to ship apps on the Play Store.',
+    'Detail-oriented Android developer with 7+ years of experience building native apps in Java and Kotlin, from IoT libraries and live-streaming fitness apps to ride-hailing and kids’ education platforms. I enjoy clean architecture (MVVM, SOLID), modern Android with Jetpack Compose and Coroutines, and leading small teams to ship apps on the Play Store.',
 }
 
 export const stats = [
-  { value: '6+', label: 'Years in Android' },
+  { value: '7+', label: 'Years in Android' },
   { value: '20+', label: 'Apps & projects' },
-  { value: '5', label: 'Live on Play Store' },
+  { value: '5', label: 'Shipped to Play Store' },
   { value: '4', label: 'Projects as team lead' },
 ]
 
@@ -93,21 +93,18 @@ export const projects = [
     role: 'Team Lead & Android Developer',
     description: 'App with real-time Agora calling, push notifications and live messaging over Socket.IO.',
     tags: ['Kotlin', 'Agora', 'FCM', 'Socket.IO'],
-    link: play('com.execlink'),
   },
   {
     title: 'The Vibes App',
     role: 'Senior Developer',
     description: 'Firebase-backed app using Realtime Database and Firestore with secured database rules.',
     tags: ['Kotlin', 'Firestore', 'Realtime DB', 'FCM'],
-    link: play('com.app.thevibesapp'),
   },
   {
     title: 'Slick',
     role: 'Team Lead',
     description: 'Real-time app with MVVM architecture and an AWS CI/CD pipeline.',
     tags: ['Kotlin', 'MVVM', 'Socket.IO', 'AWS CI/CD'],
-    link: play('com.slick'),
   },
   {
     title: 'PT-30 (IoT)',
@@ -159,17 +156,5 @@ export const education = [
     degree: 'B.Tech, Electronics & Communication',
     detail: 'First Division',
     period: '2015',
-  },
-  {
-    school: 'BSER, Ajmer',
-    degree: 'Higher Secondary (Class XII)',
-    detail: 'First Division',
-    period: '2011',
-  },
-  {
-    school: 'BSER, Ajmer',
-    degree: 'Secondary (Class X)',
-    detail: 'First Division',
-    period: '2009',
   },
 ]

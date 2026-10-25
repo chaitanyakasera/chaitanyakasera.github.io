@@ -25,7 +25,7 @@ export default function Navbar({ theme, onToggleTheme }) {
           <button className="icon-btn" onClick={onToggleTheme} aria-label="Toggle theme">
             {theme === 'dark' ? '☀' : '☾'}
           </button>
-          <button className="icon-btn menu-btn" onClick={() => setOpen(!open)} aria-label="Menu">
+          <button className="icon-btn menu-btn" onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open}>
             {open ? '✕' : '☰'}
           </button>
         </div>
